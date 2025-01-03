@@ -1,0 +1,52 @@
+{
+    "{company_01}'s average sales?":
+    "SELECT AVG(sales) FROM Top_2000_Companies WHERE company = {company_01}",
+
+    
+    "Total sales for {company_01}?":
+    "SELECT SUM(sales) FROM Top_2000_Companies WHERE company = {company_01}",
+
+    
+    "{company_01}'s maximum sales?":
+    "SELECT MAX(sales) FROM Top_2000_Companies WHERE company = {company_01}",
+
+    
+    "{company_01}'s minimum sales?":
+    "SELECT MIN(sales) FROM Top_2000_Companies WHERE company = {company_01}",
+
+    
+    "Count of records for {company_01}?":
+    "SELECT COUNT(*) FROM Top_2000_Companies WHERE company = {company_01}",
+
+    
+    "Average {column_01} for {company_01}?":
+    "SELECT AVG({column_01}) FROM Top_2000_Companies WHERE company = {company_01}",
+
+    
+    "Total sales for companies in {country_01}?":
+    "SELECT SUM(sales) FROM Top_2000_Companies WHERE country = {country_01}",
+
+    
+    "Average sales for companies in {country_01}?":
+    "SELECT AVG(sales) FROM Top_2000_Companies WHERE country = {country_01}",
+
+    
+    "Maximum {column_01} in {country_01}?":
+    "SELECT MAX({column_01}) FROM Top_2000_Companies WHERE country = {country_01}",
+
+    
+    "Minimum {column_01} in {country_01}?":
+    "SELECT MIN({column_01}) FROM Top_2000_Companies WHERE country = {country_01}",
+
+    
+    "How many {company_01} entries exist in the table?":
+    "SELECT COUNT(*) FROM Top_2000_Companies WHERE company = {company_01}",
+
+    
+    "Highest {column_01} among all?":
+    "SELECT MAX({column_01}) FROM Top_2000_Companies",
+
+    
+    "Lowest {column_01} among all?":
+    "SELECT MIN({column_01}) FROM Top_2000_Companies"
+}
