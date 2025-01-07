@@ -50,7 +50,7 @@ class MatchCheckerSQL(MatchCheckerBase):
                 })
         else:
             if list_similar_SQL_with_score[1] < self.soft_threshold:
-                similar_SQL = PromptTemplate.from_template("select * from Top_2000_Companies")
+                similar_SQL = "select * from Top_2000_Companies"
                 dict_output.update({
                     'matched_SQL': similar_SQL
                 })
